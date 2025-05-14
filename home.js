@@ -11,7 +11,7 @@ searchInput.addEventListener('input', () => {
         const title = card.querySelector('h2').textContent.toLowerCase();
         const description = card.querySelector('p').textContent.toLowerCase();
         const autor = card.querySelector('p:nth-of-type(2)').textContent.toLowerCase();
-        const category = card.querySelector('p:nth-of-type(3)').textContent.toLowerCase();
+        const category = card.querySelector('p').textContent.toLowerCase();
 
         if (title.includes(searchTerm) || description.includes(searchTerm) || author.includes(searchTerm)) {
             card.style.display = 'block'; // Mostra o card
