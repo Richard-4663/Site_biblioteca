@@ -1,0 +1,58 @@
+*/{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://wallpapers.com/images/hd/bookshelf-background-xfix8ihv6dmfjzyu.jpg);
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+.login-container{
+    border: 1px solid black;
+    position: absolute;
+    left: 50vw;
+    top: 50vh;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+input{
+    width: 400px;
+    height: 2px;
+    border-radius: 30px; 
+    margin: 10px;
+    padding: 20px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid black;
+}
+
+button#btn-login{
+    position: relative;
+    width: 400px;
+    height: 40px;
+    border-radius: 30px; 
+    margin: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    left: 4%;
+    transition: 0.4s;
+}
+
+button#btn-login:hover{
+    background-color: #236827;
+}
+
+.login-container h1{
+    text-align: center;
+    color: black;
+    pointer-events: none;
+}
