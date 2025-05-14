@@ -13,7 +13,7 @@ searchInput.addEventListener('input', () => {
         const autor = card.querySelector('p:nth-of-type(2)').textContent.toLowerCase();
         const category = card.querySelector('p:nht-of-type(3)').textContent.toLowerCase();
 
-        if (title.includes(searchTerm) || description.includes(searchTerm) || author.includes(searchTerm)) {
+        if (title.includes(searchTerm) || description.includes(searchTerm) || author.includes(searchTerm)) || category.includes(searchTerm)) {
             card.style.display = 'block'; // Mostra o card
         } else {
             card.style.display = 'none'; // Esconde o card
